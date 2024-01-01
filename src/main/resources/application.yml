@@ -1,0 +1,11 @@
+velocity-blueprint:
+  environment:
+    workspaceDirectory: VelocityBlueprint
+    modelDirectory: models
+    templateDirectory: templates
+spring:
+  main:
+    banner-mode: off
+
+logging:
+  config: log4j2-spring.xml

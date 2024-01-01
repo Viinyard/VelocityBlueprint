@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<environment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="environment.xsd">
+    <properties>
+        <property key="SRC">src/main/java</property>
+        <property key="RES">src/main/resources</property>
+        <property key="TEST_SRC">src/test/java</property>
+        <property key="TEST_RES">src/test/ressources</property>
+    </properties>
+</environment>
