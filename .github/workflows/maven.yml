@@ -29,7 +29,7 @@ jobs:
         cache: maven
     - name: Build with Maven
       env:
-        GITHUB_TOKEN: ${{ secrets.maven-repository-token }}
+        GITHUB_TOKEN: ${{ secrets.MAVEN_REPOSITORY_TOKEN }}
       run: mvn -B package --file pom.xml
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
